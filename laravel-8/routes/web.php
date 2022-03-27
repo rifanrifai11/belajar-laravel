@@ -23,5 +23,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group( function () {
         return view('dashboard');
     })->name('dashboard');
 
-    Route::get('/mahasiswa',[MahasiswaControllers::class, 'index']);
+//    Route::resource('/mahasiswa',MahasiswaControllers::class);
 });
