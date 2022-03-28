@@ -23,5 +23,12 @@ Route::middleware(['auth:sanctum', 'verified'])->group( function () {
         return view('dashboard');
     })->name('dashboard');
 
-//    Route::resource('/mahasiswa',MahasiswaControllers::class);
+    //Route::resource('/mahasiswa',MahasiswaControllers::class);
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::resource('mahsiswassayas', App\Http\Controllers\MahsiswassayaController::class);
