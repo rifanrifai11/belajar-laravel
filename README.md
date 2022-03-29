@@ -78,4 +78,20 @@ composer require laravel/ui:^3.0
 ```
 php artisan ui bootstrap --auth
 ```
- 
+
+```
+php artisan infyom.publish:layout 
+```
+
+### Laravel 9
+```
+php artisan ui adminlte --auth
+```
+
+```
+npm install && npm run dev
+```
+Pastikan Node.js telah terinstall pada komputer anda [Node.Js](https://nodejs.org/en/download/).
+
+
+
