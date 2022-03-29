@@ -94,6 +94,13 @@ npm install && npm run dev
 Pastikan Node.js telah terinstall pada komputer anda [Node.Js](https://nodejs.org/en/download/).
 
 
+
+Mencoba untuk menjalankan projek laravel untuk melihat hasil konfigurasi.
+```
+php artisan serve
+```
+
+
 # 3. Configurasi Project Laravel
 Buka file ``.env`` kemudian sesuaikan pada DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD pada virtual server anda.
 
@@ -108,3 +115,5 @@ Lakukan migrate pada terminal(mac) atau cmd (windows).
 ```
 php artisan migrate
 ```
+
+# 4. Melakukan P
