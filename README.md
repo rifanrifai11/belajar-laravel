@@ -4,15 +4,16 @@
 
 Berikut ini bagamana melakukan install & configurasi antara laravel dengan infyom. Untuk memudahkan melakukan operasi query laravel maka gunakan editor code seperti [Visual Code Studio](https://code.visualstudio.com/) atau editor sejenisnya.
 
-## 1. Melakukan Install Laravel
+## - 1. Melakukan Install Laravel
 
 Lakukan perintah ini untuk menginstall laravel.
 
 ### Version 8 Laravel
 ```
-composer create-project laravel/laravel:^8.0 example-app
+composer create-project laravel/laravel:^8.0 laravel-infyom
 ```
 ### Version new Laravel
 ```
-composer create-project laravel/laravel example-app
+composer create-project laravel/laravel laravel-infyom
 ```
+
