@@ -4,7 +4,7 @@
 
 Berikut ini bagamana melakukan install & configurasi antara laravel dengan infyom. Untuk memudahkan melakukan operasi query laravel maka gunakan editor code seperti [Visual Code Studio](https://code.visualstudio.com/) atau editor sejenisnya.
 
-# 1. Install Laravel
+# [1.] Install Laravel
 
 Lakukan perintah ini untuk menginstall laravel.
 
@@ -22,7 +22,7 @@ composer create-project laravel/laravel laravel-infyom
 
 - Kemudian membuat database + table pada phpmyadmin virtual server.
 
-# 2. Install & Include Library Infyom
+# [2.] Install & Include Library Infyom
 
 ## Laravel 9
 Tambahkan packages ini pada ``composer.json``.
