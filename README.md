@@ -46,8 +46,9 @@ Tambahkan packages ini pada ``composer.json``.
  } 
  ```
  
- Jalankan perintah ini pada terminal (MAC) atau cmd (Windows). Terminal editor code jika anda menggunakan <b>Visual Code</b>
+ Jalankan perintah ini pada terminal (MAC) atau cmd (Windows). Terminal editor code jika anda menggunakan <b>Visual Code</b>.
  ```
  composer update
  ```
+ 
  
