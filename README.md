@@ -116,4 +116,15 @@ Lakukan migrate pada terminal(mac) atau cmd (windows).
 php artisan migrate
 ```
 
-# 4. Melakukan P
+# 4. Melakukan Perintah Generate Table
+
+Mencoba untuk melakukan generate table untuk membuat tampilan CRUD.
+```
+php artisan infyom:scaffold NAME_MODEL --fromTable --tableName=NAME_TABLE
+```
+
+### CONTOH 
+```
+php artisan infyom:scaffold Mahasiswa --fromTable --tableName=data_mahasiswa
+```
+
