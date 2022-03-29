@@ -4,7 +4,7 @@
 
 Berikut ini bagamana melakukan install & configurasi antara laravel dengan infyom. Untuk memudahkan melakukan operasi query laravel maka gunakan editor code seperti [Visual Code Studio](https://code.visualstudio.com/) atau editor sejenisnya.
 
-## - 1. Melakukan Install Laravel
+## Melakukan Install Laravel
 
 Lakukan perintah ini untuk menginstall laravel.
 
@@ -16,4 +16,8 @@ composer create-project laravel/laravel:^8.0 laravel-infyom
 ```
 composer create-project laravel/laravel laravel-infyom
 ```
+## Menyiapkan Virtual Server
 
+- 1. Menginstall virtual server pada komputer dengan [XAMPP](https://www.apachefriends.org/download.html) atau [MAMP](https://www.mamp.info/en/downloads/).
+
+- 2. Kemudian membuat database + table pada phpmyadmin virtual server.
