@@ -8,11 +8,11 @@ Berikut ini bagamana melakukan install & configurasi antara laravel dengan infyo
 
 Lakukan perintah ini untuk menginstall laravel.
 
-# Version 8 Laravel
+### Version 8 Laravel
 ```
 composer create-project laravel/laravel:^8.0 example-app
 ```
-# Version new Laravel
+### Version new Laravel
 ```
 composer create-project laravel/laravel example-app
 ```
