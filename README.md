@@ -51,4 +51,31 @@ Tambahkan packages ini pada ``composer.json``.
  composer update
  ```
  
+ Untuk laravel 8 harus menginputkan Aliases pada ``config/app.php``.
+```
+'Form'      => Collective\Html\FormFacade::class,
+'Html'      => Collective\Html\HtmlFacade::class,
+'Flash'     => Laracasts\Flash\Flash::class,
+```
+
+## Publish Vendor
+Jalankan perintah ini pada terminal (MAC) atau cmd (Windows). Terminal editor code jika anda menggunakan <b>Visual Code</b>.
+
+```
+php artisan vendor:publish --provider="InfyOm\Generator\InfyOmGeneratorServiceProvider"
+```
+
+```
+php artisan infyom:publish
+```
+## Publish Layout
+
+### Laravel 8
+```
+composer require laravel/ui:^3.0
+```
+
+```
+php artisan ui bootstrap --auth
+```
  
