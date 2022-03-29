@@ -24,6 +24,4 @@ composer create-project laravel/laravel laravel-infyom
 
 # 2. Include Library Infyom
 
-``
-ded
-``
+``ded``
