@@ -22,6 +22,29 @@ composer create-project laravel/laravel laravel-infyom
 
 - Kemudian membuat database + table pada phpmyadmin virtual server.
 
-# 2. Include Library Infyom
+# 2. Install & Include Library Infyom
 
-``ded``
+## Laravel 9
+Tambahkan packages ini pada ``composer.json``.
+
+```
+ "require": {
+     "infyomlabs/laravel-generator": "^4.0",
+     "infyomlabs/adminlte-templates": "^4.0",
+     "doctrine/dbal": "~2.3"
+ } 
+ ```
+ ## Laravel 8
+ Tambahkan packages ini pada ``composer.json``.
+
+```
+ "require": {
+     "infyomlabs/laravel-generator": "^3.0",
+     "laravelcollective/html": "^6.2",
+     "infyomlabs/adminlte-templates": "^3.0"
+     "doctrine/dbal": "~2.3"
+ } 
+ ```
+ 
+ 
+ 
